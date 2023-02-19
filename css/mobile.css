@@ -1,0 +1,99 @@
+/*CSS FOR MOBILE SCREEN */
+
+@media only screen and (max-width: 767px) {
+  /* Banner */
+  .text-banner h1 {
+    font-size: 25px;
+    margin-bottom: 0px;
+  }
+  .text-banner span {
+    font-size: 12px;
+  }
+
+  /* Navbar */
+  nav ul {
+    display: flex;
+    flex-direction: column !important;
+  }
+
+  nav ul li {
+    height: 45px;
+    margin: 0px !important;
+    padding-left: 30px !important;
+    border: none;
+  }
+
+  nav ul li:nth-child(3) {
+    display: none;
+  }
+
+  nav div {
+    justify-content: flex-start !important;
+    padding-left: 0px !important;
+    margin-left: 0px !important;
+  }
+
+  /* Job target - Personal information */
+  .target-job,
+  .personal-info {
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: small;
+    line-height: 1.8;
+  }
+
+  .target-job {
+    background-color: #f7f7f7;
+  }
+
+  .personal-info {
+    background-color: #f0f0f0;
+  }
+
+  /* Job information */
+  .info-content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border: 1px solid #e1e1e1;
+  }
+
+  /* Certificate - Award */
+  .layout-responsive {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .borderline-bottom {
+    border-bottom: 1px solid #d6c08d;
+  }
+
+  .content-certificate {
+    padding-left: 10px;
+  }
+
+  .title-certificate {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    font-size: 12px;
+  }
+
+  /* Project */
+  .sub-title-container {
+    padding: 10px 15px;
+  }
+
+  .box-year {
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+}
